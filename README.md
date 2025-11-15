@@ -43,22 +43,32 @@ jupyter notebook
 
 **Done!** Your first agent should be running. ✅
 
-### 🔑 Getting API Keys
+### 🔑 Team Registration & API Keys
 
-**During the Hackathon:**
-1. Form your team (3-5 members)
-2. Join [Discord](https://discord.com/invite/QBTtWP2SU6?referrer=luma)
-3. DM **Zekun Wu** (`@zekunwu_73994`) to receive:
-   - API keys (AWS Bedrock credentials)
+**Step 1: Form Your Team**
+- Team size: 3-5 members (required)
+- Form teams on-site at UCL East - Marshgate, London
+
+**Step 2: Register Your Team**
+1. After forming your team, fill out the registration form:
+
+   **🔗 [Team Registration Form](https://d3cayqk6b4dz0i.cloudfront.net/register.html?token=3crgPBFze8LnAaqDqc3KX8bq1Xu4qXhSnQ9eDycC8Tk)**
+
+2. Upon successful registration, your team will receive:
+   - **Team ID** and **API Token** (AWS Bedrock credentials)
    - AWS SageMaker Notebook Instance access
    - Other hackathon resources
-4. Add credentials to `.env`:
-   ```bash
-   HOLISTIC_AI_TEAM_ID=your-team-id
-   HOLISTIC_AI_API_TOKEN=your-token
-   ```
 
-**Before the Hackathon:** Credentials sent to registered teams via email.
+**Step 3: Configure Your Environment**
+Add your team credentials to `.env`:
+```bash
+HOLISTIC_AI_TEAM_ID=your-team-id
+HOLISTIC_AI_API_TOKEN=your-token
+```
+
+**Need Help?**
+- Join [Discord](https://discord.com/invite/QBTtWP2SU6?referrer=luma)
+- DM **Zekun Wu** (`@zekunwu_73994`) for any registration or API key issues
 
 📚 **Resources:** [API Guide](./assets/api-guide.pdf)
 
