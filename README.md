@@ -56,8 +56,8 @@ jupyter notebook
 
 2. Upon successful registration, your team will receive:
    - **Team ID** and **API Token** (AWS Bedrock credentials)
-   - AWS SageMaker Notebook Instance access
-   - Other hackathon resources
+
+3. For AWS SageMaker Notebook Instance access, DM **Zekun Wu** (`@zekunwu_73994`) on Discord
 
 **Step 3: Configure Your Environment**
 Add your team credentials to `.env`:
